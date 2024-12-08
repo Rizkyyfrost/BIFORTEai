@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Gemini</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Gemini AI Chat</h1>
+        </header>
+        <div id="chat-box" class="chat-box"></div>
+        <footer class="chat-footer">
+            <input type="text" id="user-input" placeholder="Tulis pesan..." autocomplete="off">
+            <button id="send-button">➤</button>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
